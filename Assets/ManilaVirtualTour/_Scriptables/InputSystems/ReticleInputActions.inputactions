@@ -1,0 +1,45 @@
+{
+    "name": "ReticleInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c8aacc60-a705-4151-884a-e6f81f1ed8b4",
+            "actions": [
+                {
+                    "name": "Choose",
+                    "type": "Button",
+                    "id": "a7d0fe84-7791-4576-9787-18a4a08e96fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d6f77cb2-7695-4e54-bfd9-97fa2bda35ed",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a870a87-21bb-4aca-8906-d4f28720a590",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Choose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
